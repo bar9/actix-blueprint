@@ -1,0 +1,13 @@
+{
+  "name": "actix-blueprint",
+  "version": "1.0.0",
+  "dependencies": {
+    "mediasoup-client": "^3.6.51"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38"
+  },
+  "scripts": {
+    "build-web": "node_modules/.bin/esbuild web-src/index.ts --bundle --outfile=static/web.js"
+  }
+}
