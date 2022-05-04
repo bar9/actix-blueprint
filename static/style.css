@@ -14,3 +14,8 @@ figure {
 video {
     max-width: 100%;
 }
+
+vds-media {
+    max-width: 50vw;
+    display: inline;
+}

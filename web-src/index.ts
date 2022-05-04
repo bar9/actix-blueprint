@@ -1,8 +1,10 @@
-/* eslint-disable no-console */
 import {Device} from 'mediasoup-client';
 import {Transport} from 'mediasoup-client/lib/Transport';
 import {ConsumerOptions} from 'mediasoup-client/lib/Consumer';
 import {ClientMessage, ConsumerId, ProducerId, ServerMessage} from './types';
+import '@vidstack/player/define/vds-media.js';
+import '@vidstack/player/define/vds-video.js';
+
 
 async function init()
 {
